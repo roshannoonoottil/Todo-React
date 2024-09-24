@@ -1,0 +1,58 @@
+/* General styling for the app container */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../public/todo.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* ToDo app container */
+.todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    text-align: center;
+}
+
+/* Header styling */
+.todo-container h1 {
+    color: #656464;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.todo-container input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Task item styling */
+li {
+    background-color: #544848;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
