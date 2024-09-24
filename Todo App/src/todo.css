@@ -1,7 +1,7 @@
 /* General styling for the app container */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../public/todo.jpg');
+    background-image: url('todo.jpg');
     margin: 0;
     padding: 0;
     display: flex;
