@@ -33,7 +33,7 @@ function ToDoList() {
 
     return (
         <div className="todo-container">
-    <h1>Simple To-Do List</h1>
+    <h1>To-Do List</h1>
 
     <input 
         type="text" 
