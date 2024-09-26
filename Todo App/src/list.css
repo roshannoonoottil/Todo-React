@@ -1,0 +1,18 @@
+/* Add this CSS */
+.task-list-container {
+    max-height: 350px; /* Adjust the height according to your design */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.task-list-container li {
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Optional: Just for styling */
+}
+
+.task-list-container li:last-child {
+    border-bottom: none; /* Remove border for the last task */
+}

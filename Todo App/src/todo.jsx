@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './todo.css'
+import TaskList from './list';
 
 function ToDoList() {
     const [task, setTask] = useState('');            // To hold the current task input
@@ -44,14 +45,7 @@ function ToDoList() {
 
     <button onClick={addTask}>Add Task</button>
 
-    <ul>
-        {tasks.map((task, index) => (
-            <li key={index}>
-                {task}
-                <button onClick={() => removeTask(index)}>Delete</button>
-            </li>
-        ))}
-    </ul>
+    <TaskList tasks={tasks} removeTask={removeTask} />
 </div>
 
     );
